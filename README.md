@@ -2,24 +2,26 @@ Package with utilities and helpers that are useful in any dart project.
 
 ## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
+# The list of available functions:
+
+- delay
 
 ## Getting started
 
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
+ ```yaml
+dependencies:
+  core_dart: [latest-version]
+``` 
 
 ## Usage
 
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder. 
+Delay shortcut example:
 
 ```dart
-const like = 'sample';
+import 'package:core_dart/core_dart.dart';
+
+Future<void> main() async {
+  await delay(seconds: 5);
+  print('After delay');
+}
 ```
-
-## Additional information
-
-TODO: Tell users more about the package: where to find more information, how to 
-contribute to the package, how to file issues, what response they can expect 
-from the package authors, and more.
