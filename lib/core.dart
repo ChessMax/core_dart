@@ -1,3 +1,3 @@
-library core;
+library core_dart;
 
 export 'src/delay.dart';
